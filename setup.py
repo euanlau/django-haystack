@@ -10,6 +10,7 @@ setup(
     author_email='daniel@toastdriven.com',
     long_description=open('README.rst', 'r').read(),
     url='http://haystacksearch.org/',
+    install_requires=['django-pure-pagination == 0.2.1'],
     packages=[
         'haystack',
         'haystack.backends',
